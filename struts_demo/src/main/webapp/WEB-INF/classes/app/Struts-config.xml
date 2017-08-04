@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<!DOCTYPE struts-config PUBLIC 
+"-//Apache Software Foundation//DTD Struts Configuration 1.0//EN" 
+"http://jakarta.apache.org/struts/dtds/struts-config_1_0.dtd">
+<struts-config>
+	<form-beans>
+		<form-bean name="registerForm" type="app.RegisterForm" />
+	</form-beans>
+	<action-mappings>
+		<action path="/register" type="app.RegisterAction" name="registerForm">
+			<forward name="success" path="/success.html" />
+			<forward name="failure" path="/failure.html" />
+		</action>
+	</action-mappings>
+</struts-config>
