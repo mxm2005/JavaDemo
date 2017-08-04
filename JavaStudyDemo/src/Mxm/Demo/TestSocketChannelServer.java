@@ -7,6 +7,13 @@ import java.net.Socket;
 import java.net.SocketAddress;
 
 public class TestSocketChannelServer {
+
+	public static void main(String[] args) {
+		System.out.println("begin...");
+		server();
+		System.out.println("end...");
+	}
+
 	public static void server() {
 		ServerSocket serverSocket = null;
 		InputStream in = null;

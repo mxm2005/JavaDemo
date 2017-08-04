@@ -7,6 +7,13 @@ import java.nio.channels.SocketChannel;
 import java.util.concurrent.TimeUnit;
 
 public class TestSocketChannelClient {
+	
+	public static void main(String[] args) {
+		System.out.println("begin...");
+		client();
+		System.out.println("end...");
+	}
+	
 	public static void client() {
 		ByteBuffer buffer = ByteBuffer.allocate(1024);
 		SocketChannel socketChannel = null;
