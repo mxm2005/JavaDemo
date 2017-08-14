@@ -14,15 +14,18 @@ public class TestDemo {
 //		tc.TestSet();
 		
 		
-		TestIO.WriteToFile();
-		TestIO.ReadFile();
+//		TestIO.WriteToFile();
+//		TestIO.ReadFile();
 		
 //		TestNIO.method1();
 //		TestNIO.method2();
 //		TestNIO.method3();
 //		TestNIO.method4();
 		
-		TestIO.replaceTxt();
+//		TestIO.replaceTxt();
+		
+//		TestGetPath.Test();
+		
 		
 		System.out.println("end...");
 	}
